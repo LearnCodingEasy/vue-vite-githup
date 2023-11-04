@@ -70,6 +70,11 @@
         <p>search term Watch Name : {{ searchWatchName }}</p>
       </div>
       <!-- End Watch -->
+      <!-- Start Watch -->
+      <div class="card">
+        <h4 class="lead">Watch Github Pages</h4>
+      </div>
+      <!-- End Watch -->
     </div>
   </div>
 </template>
@@ -188,3 +193,20 @@ components: {
   }
 }
 </style>
+
+<!-- Adding Project To Github
+git init
+git add *
+git commit -m "Created The Main Project Structure"
+git branch -M main
+git remote add origin git@github.com:LearnCodingEasy/reposName.git
+git push -u origin main
+
+> vite.config.js :> base: "projectName"  
+
+npm run build
+git add dist -f
+git commit -m "Adding Dist Folder"
+git subtree push --prefix dist origin gh-pages
+updating
+-->
