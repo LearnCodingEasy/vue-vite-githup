@@ -75,6 +75,11 @@
         <h4 class="lead">Watch Github Pages</h4>
       </div>
       <!-- End Watch -->
+      <!-- Start Watch -->
+      <div class="card">
+        <h4 class="lead">Watch Github Pages</h4>
+      </div>
+      <!-- End Watch -->
     </div>
   </div>
 </template>
@@ -208,6 +213,8 @@ npm run build
 git add dist -f
 git commit -m "Adding Dist Folder"
 git subtree push --prefix dist origin gh-pages
+updating
+updating
 updating
 updating
 -->
